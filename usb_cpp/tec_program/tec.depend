@@ -1,0 +1,24 @@
+# depslib dependency file v1.0
+1631203899 source:c:\users\xjuju\desktop\stage\usb_cpp\tec\instrument.cpp
+	<iostream>
+	"instrument.h"
+	"libusb.h"
+
+1631204981 c:\users\xjuju\desktop\stage\usb_cpp\tec\instrument.h
+	"libusb.h"
+
+1607677200 c:\users\xjuju\desktop\stage\usb_cpp\tec\libusb.h
+	<basetsd.h>
+	<limits.h>
+	<stdint.h>
+	<sys/types.h>
+	<sys/time.h>
+	<time.h>
+	<windows.h>
+	<winsock.h>
+
+1631204981 source:c:\users\xjuju\desktop\stage\usb_cpp\tec\main.cpp
+	<iostream>
+	"instrument.h"
+	"libusb.h"
+

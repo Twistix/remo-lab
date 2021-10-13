@@ -1,0 +1,23 @@
+# depslib dependency file v1.0
+1607677200 source:c:\users\xjuju\desktop\stage\usb_cpp\usb_programming\listdevs.c
+	<stdio.h>
+	"libusb.h"
+
+1607677200 c:\users\xjuju\desktop\stage\usb_cpp\usb_programming\libusb.h
+	<basetsd.h>
+	<limits.h>
+	<stdint.h>
+	<sys/types.h>
+	<sys/time.h>
+	<time.h>
+	<windows.h>
+	<winsock.h>
+
+1631030095 source:c:\users\xjuju\desktop\stage\usb_cpp\usb_programming\testopendevice.cpp
+	<iostream>
+	"libusb.h"
+
+1631111107 source:c:\users\xjuju\desktop\stage\usb_cpp\usb_programming\testlibusb.cpp
+	<iostream>
+	"libusb.h"
+
