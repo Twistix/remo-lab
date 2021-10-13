@@ -1,0 +1,11 @@
+# depslib dependency file v1.0
+1627459438 source:c:\users\xjuju\desktop\stage\premier_programme\main.cpp
+	<iostream>
+	"instrument.h"
+
+1627965206 c:\users\xjuju\desktop\stage\premier_programme\instrument.h
+
+1627965176 source:c:\users\xjuju\desktop\stage\premier_programme\instrument.cpp
+	<iostream>
+	"instrument.h"
+

@@ -1,0 +1,38 @@
+body {
+    width:100%;
+  }
+
+#main-content {
+float:none;
+width:1200px;
+margin:0 auto;
+}
+
+#main-content h1 {
+width:100%;
+text-align:center;
+}
+
+#error {
+font-weight: bold;
+color: red;
+}
+
+* {
+box-sizing: border-box;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+float: left;
+width: 50%;
+padding: 10px;
+height: 500px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+content: "";
+display: table;
+clear: both;
+}

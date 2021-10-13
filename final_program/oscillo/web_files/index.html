@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Oscilloscope</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   
+  <div id="main-content">
+    <h1>Oscilloscope</h1>
+    <br>
+    
+  	<button id="btnAutoscale" onclick="fautoscale()">AUTOSCALE</button>
+	<button id="btnReset" onclick="freset()">RESET</button>
+	<br>
+	
+	<p style="color:#FF0000" id="txtError"></p>
+	<br>
+    
+    <div class="row">
+      <div class="column" style="background-color:#aaa;">
+        <p>Vertical scale (V/div):</p>
+        <input id="vertScale" type="text"><br>
+        <p>Vertical offset (V):</p>
+        <input id="vertOffset" type="text"><br>
+        <p>Horizontal scale (ms/div):</p>
+        <input id="horiScale" type="text"><br>
+        <p>Horizontal offset (ms):</p>
+        <input id="horiOffset" type="text"/><br>
+        <p>Edge trigger level (V):</p>
+        <input id="trigEdgelevel" type="text"><br>
+        <p>Aquisition mode (1=Normal,2=Peak,3=Average,4=High Resolution) :</p>
+        <input id="aqumode" type="text">
+        <br>
+        <button id="btnSubmit" onclick="fsubmit()">SUBMIT</button>
+      </div>
+      <div class="column" style="background-color:#bbb;">
+		<button id="btnSscreen" onclick="fsavescreen()">Update screen image</button>
+		<button id="btnSwaveform" onclick="fsavewaveform()">Save waveform</button>
+        <br>
+		<br>
+		<img id="screenImg" width="500">
+      </div>
+    </div>
+    
+  </div> 
+  
+  <script type="text/javascript" src="script.js"></script>
+</body> 
+
+</html>

@@ -1,0 +1,39 @@
+class instrument :
+	atributes :
+		string indentity
+
+	methods :
+		//Commands
+		void sendCommand(string command)
+		void sendCommandIEEEBlock(string command, byte[] dataArray)
+
+		//Querys
+		string doQueryString(string query)
+		float doQueryNumber(string query)
+		float[] doQueryNumbers(string query)
+		byte[] doQueryIEEEBlock(string query)
+
+		//Checks
+		void checkInstrumentErros(string command)
+
+
+	child-class oscilloscope :
+		attributs :
+		methodes :
+			void initialize()
+			void autoscale()
+			void setVertScale(int channel, float vscale)
+			void setVertOffset(int channel, float voffset)
+			void setHoriScale(float hscale)
+			void setHoriOffset(float hoffset)
+			void setTriggerEdgeLevel(int channel, float level)
+			void setAquisitionMode(int mode)
+			byte[] saveConfig()
+			byte[] saveWaveform(int channel, int nbPoints)			
+			
+
+	child-class gbf :
+		attributs :
+		methodes :
+			void initialize()
+
